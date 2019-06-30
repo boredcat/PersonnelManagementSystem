@@ -41,7 +41,7 @@ public class DispatcherServlet extends GenericServlet {
 
         Object obj = context.getBean(beanName);
         try {
-            Method method = obj.getClass().getMethod(methodName,HttpServletResponse.class,HttpServletResponse.class);
+            Method method = obj.getClass().getMethod(methodName,HttpServletRequest.class,HttpServletResponse.class);
             method.invoke(obj,request,response);
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
