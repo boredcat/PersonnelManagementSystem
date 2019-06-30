@@ -38,7 +38,7 @@
                 <span class="name">编辑部门</span>
             </div>
             <div class="space_hx">&nbsp;</div>
-            <form action="add.do" method="post" name="addForm">
+            <form action="edit.do" method="post" name="addForm">
                 <input  name="id" type="hidden" value="${OBJ.id}"/>
                 <div class="xjhy">
                     <!--高级配置-->

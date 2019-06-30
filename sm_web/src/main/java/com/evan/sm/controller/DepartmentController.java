@@ -59,4 +59,10 @@ public class DepartmentController {
         departmentService.edit(department);
         response.sendRedirect("list.do");
     }
+
+    public void remove(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer id = Integer.parseInt(request.getParameter("id"));
+        departmentService.remove(id);
+        response.sendRedirect("list.do");
+    }
 }
