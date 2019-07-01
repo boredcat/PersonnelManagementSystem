@@ -30,7 +30,7 @@
     <div class="right_m">
         <div class="hy_list">
             <div class="box_t">
-                <span class="name">员工列表</span>
+                <span class="name">猫咪列表</span>
             </div>
             <div class="space_hx">&nbsp;</div>
             <!--列表-->
@@ -39,8 +39,8 @@
                     <th scope="col">姓名</th>
                     <th scope="col">性别</th>
                     <th scope="col">出生日期</th>
-                    <th scope="col">入职时间</th>
-                    <th scope="col">部门</th>
+                    <th scope="col">驾到时间</th>
+                    <th scope="col">猫粮</th>
                     <th scope="col">状态</th>
                     <th scope="col">操作</th>
                 </tr>

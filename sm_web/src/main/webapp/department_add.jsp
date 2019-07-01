@@ -35,7 +35,7 @@
     <div class="right_m">
         <div class="hy_list">
             <div class="box_t">
-                <span class="name">添加部门</span>
+                <span class="name">添加猫粮</span>
             </div>
             <div class="space_hx">&nbsp;</div>
             <form action="add.do" method="post" name="addForm">
@@ -43,14 +43,14 @@
                     <!--高级配置-->
                     <ul class="hypz gjpz clearfix">
                         <li class="clearfix">
-                            <span class="title">名称：</span>
+                            <span class="title">牌子：</span>
                             <div class="li_r">
                                 <input class="chang" name="name" type="text"/>
                                 <i>*</i>
                             </div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">地址：</span>
+                            <span class="title">描述：</span>
                             <div class="li_r">
                                 <input class="chang" name="address" type="text"/>
                             </div>

@@ -32,7 +32,7 @@ public class LoginFilter implements Filter {
             if(obj!=null){
                 filterChain.doFilter(request,response);
             }else {
-                response.sendRedirect(request.getContextPath()+"/toLogin.dao");
+                response.sendRedirect(request.getContextPath()+"/toLogin.do");
             }
         }
     }

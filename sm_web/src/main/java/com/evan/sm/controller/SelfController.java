@@ -41,7 +41,7 @@ public class SelfController {
             response.sendRedirect("toLogin.do");
     }
 
-    public void mian(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("login.jsp").forward(request,response);
+    public void main(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("index.jsp").forward(request,response);
     }
 }

@@ -32,15 +32,15 @@
     <ul class="sidenav">
         <li>
             <div class="nav_m">
-                <span><a>人员管理</a></span>
+                <span><a>猫咪管理</a></span>
                 <i>&nbsp;</i>
             </div>
             <ul class="erji">
                 <li>
-                    <span><a href="staff/list.do" target="main">员工管理</a></span>
+                    <span><a href="staff/list.do" target="main">猫咪管理</a></span>
                 </li>
                 <li>
-                    <span><a href="department/list.do" target="main">部门管理</a></span>
+                    <span><a href="department/list.do" target="main">猫粮管理</a></span>
                 </li>
             </ul>
         </li>
@@ -63,12 +63,12 @@
         </li>
         <li class="now">
             <div class="nav_m">
-                <span><a>个人中心</a></span>
+                <span><a>猫咪中心</a></span>
                 <i>&nbsp;</i>
             </div>
             <ul class="erji">
                 <li>
-                    <span><a href="self/info.do" target="main">个人信息</a></span>
+                    <span><a href="self/info.do" target="main">猫咪信息</a></span>
                 </li>
                 <li>
                     <span><a href="self/toChangePassword.do" target="main">修改密码</a></span>

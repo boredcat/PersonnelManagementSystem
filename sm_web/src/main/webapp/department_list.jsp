@@ -36,14 +36,14 @@
     <div class="right_m">
         <div class="hy_list">
             <div class="box_t">
-                <span class="name">部门列表</span>
+                <span class="name">猫粮列表</span>
             </div>
             <div class="space_hx">&nbsp;</div>
             <!--列表-->
             <table cellpadding="0" cellspacing="0" class="list_hy">
                 <tr>
-                    <th scope="col">名称</th>
-                    <th scope="col">地址</th>
+                    <th scope="col">牌子</th>
+                    <th scope="col">描述</th>
                     <th scope="col">操作</th>
                 </tr>
                 <c:forEach items="${LIST}" var="dep">

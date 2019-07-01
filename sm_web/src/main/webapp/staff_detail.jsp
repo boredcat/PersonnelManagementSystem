@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=8" >
-    <title>员工信息</title>
+    <title>猫咪信息</title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../css/common.css"/>
     <link rel="stylesheet" type="text/css" href="../css/thems.css">
@@ -30,14 +30,14 @@
     <div class="right_m">
         <div class="hy_list">
             <div class="box_t">
-                <span class="name">员工信息</span>
+                <span class="name">猫咪信息</span>
             </div>
             <div class="space_hx">&nbsp;</div>
                 <div class="xjhy">
                     <!--高级配置-->
                     <ul class="hypz gjpz clearfix">
                         <li class="clearfix">
-                            <span class="title">账户名：</span>
+                            <span class="title">猫咪账户：</span>
                             <div class="li_r">${OBJ.account}</div>
                         </li>
                         <li class="clearfix">
@@ -45,11 +45,11 @@
                             <div class="li_r">${OBJ.status}</div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">部门：</span>
+                            <span class="title">猫粮：</span>
                             <div class="li_r">${OBJ.department.name}</div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">姓名：</span>
+                            <span class="title">猫咪名：</span>
                             <div class="li_r">${OBJ.account}</div>
                         </li>
                         <li class="clearfix">
@@ -57,7 +57,7 @@
                             <div class="li_r">${OBJ.sex}</div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">身份证号：</span>
+                            <span class="title">品种：</span>
                             <div class="li_r">${OBJ.idNumber}</div>
                         </li>
                         <li class="clearfix">
@@ -67,13 +67,13 @@
                             </div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">入职时间：</span>
+                            <span class="title">驾到时间：</span>
                             <div class="li_r">
                                 <fmt:formatDate value="${OBJ.workTime}" pattern="yyyy-MM-dd hh:mm"/>
                             </div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">离职时间：</span>
+                            <span class="title">出走时间：</span>
                             <div class="li_r">
                                 <fmt:formatDate value="${OBJ.leaveTime}" pattern="yyyy-MM-dd hh:mm"/>
                             </div>

@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=8" >
-    <title>编辑员工</title>
+    <title>编辑猫咪</title>
     <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="../css/common.css"/>
     <link rel="stylesheet" type="text/css" href="../css/thems.css">
@@ -30,7 +30,7 @@
     <div class="right_m">
         <div class="hy_list">
             <div class="box_t">
-                <span class="name">编辑员工</span>
+                <span class="name">编辑猫咪</span>
             </div>
             <div class="space_hx">&nbsp;</div>
             <form action="edit.do" method="post" name="addForm">
@@ -39,14 +39,14 @@
                     <!--高级配置-->
                     <ul class="hypz gjpz clearfix">
                         <li class="clearfix">
-                            <span class="title">账户名：</span>
+                            <span class="title">猫咪名：</span>
                             <div class="li_r">
                                 <input class="chang" name="account" type="text" value="${OBJ.account}"/>
                                 <i>*</i>
                             </div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">部门：</span>
+                            <span class="title">猫粮：</span>
                             <div class="li_r">
                                 <select name="did">
                                     <c:forEach items="${DLIST}" var="dep">
@@ -62,7 +62,7 @@
                             </div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">姓名：</span>
+                            <span class="title">猫咪名：</span>
                             <div class="li_r">
                                 <input class="chang" name="name" type="text" value="${OBJ.name}"/>
                             </div>
@@ -89,7 +89,7 @@
                             </div>
                         </li>
                         <li class="clearfix">
-                            <span class="title">身份证号：</span>
+                            <span class="title">品种：</span>
                             <div class="li_r">
                                 <input class="chang" name="idNumber" type="text" value="${OBJ.idNumber}"/>
                             </div>
