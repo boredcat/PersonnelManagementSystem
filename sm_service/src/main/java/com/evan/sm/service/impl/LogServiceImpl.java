@@ -3,6 +3,7 @@ package com.evan.sm.service.impl;
 import com.evan.sm.dao.LogDao;
 import com.evan.sm.entity.Log;
 import com.evan.sm.service.LogService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -11,6 +12,7 @@ import java.util.List;
 @Service("logService")
 public class LogServiceImpl implements LogService {
 
+    @Autowired
     private LogDao logDao;
 
     public void addSystemLog(Log log) {

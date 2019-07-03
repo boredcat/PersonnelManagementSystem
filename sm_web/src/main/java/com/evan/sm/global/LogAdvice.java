@@ -33,7 +33,7 @@ public class LogAdvice {
         HttpSession session = request.getSession();
         Object obj = session.getAttribute("USER");
         Staff staff = (Staff) obj;
-        log.setOperation(staff.getAccount());
+        log.setOperator(staff.getAccount());
         log.setResult("成功");
         logService.addOperationLog(log);
     }
@@ -47,7 +47,7 @@ public class LogAdvice {
         HttpSession session = request.getSession();
         Object obj = session.getAttribute("USER");
         Staff staff = (Staff) obj;
-        log.setOperation(staff.getAccount());
+        log.setOperator(staff.getAccount());
         log.setResult(e.getClass().getSimpleName());
         logService.addSystemLog(log);
     }
@@ -70,11 +70,11 @@ public class LogAdvice {
         HttpSession session = request.getSession();
         Object obj = session.getAttribute("USER");
         if(obj == null){
-            log.setOperation(request.getParameter("account"));
+            log.setOperator(request.getParameter("account"));
             log.setResult("失败");
         }else {
             Staff staff = (Staff) obj;
-            log.setOperation(staff.getAccount());
+            log.setOperator(staff.getAccount());
             log.setResult("成功");
         }
         logService.addLoginLog(log);
